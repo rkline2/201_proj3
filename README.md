@@ -16,7 +16,7 @@ The program starts by asking the user for the filename that contains the go boar
 The program will paint the board with player ownership and then tally the final score.
 
 ### Reading in and Creating the Board
-For this assignment, you will be reading in a file representing the completedGo game.<br>
+For this assignment, you will be reading in a file representing the completed Go game.<br>
 * The board may be any size
 * The board will always be rectangular
 * The board will consist of:
