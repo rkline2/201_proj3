@@ -1,0 +1,99 @@
+"""
+File: design3.txt
+Author: Rooklyn Kline
+Date: 11/29/19
+Section: 15
+E-mail: rkline2@umbc.edu
+Description:
+    This program is a scoring system of the board game "Go".
+It replaces all of the empty spaces with the player's piece that
+controls those areas. It will then sum up the total scores for
+each player and it will display the original board,
+"painted" board, and the total scores of the two players.
+"""
+
+
+# Represents input validation
+INVALID_BOARD = "bad board"
+
+# Represents an empty string
+NOTHING = ''
+
+# Used for string comparison
+EXIT_PROGRAM = "QUIT"
+BLACK_PIECE = 'X'
+WHITE_PIECE = 'O'
+EMPTY_SPACE = '+'
+
+
+def nowhitespace(input_response):
+    """
+    This function removes all of the white spaces of any string value
+    statement.
+    :param input_response: This parameter represents the
+    word or phrase you would like to remove all of the white spaces from.
+    :return: The parameter as a single word or phrase.
+    """
+
+
+def make_two_d_list(input_file):
+    """
+    This function creates a two dimensional list of the finished go-board.
+    :param input_file: The file the user would like to convert
+    :return: A two dimensional list of go-board
+    """
+
+
+def is_length_valid(two_d_list):
+    """
+    This function checks to see if each column of the go-board
+    are the same.
+    :param two_d_list: The two dimensional list that is checked
+    :return: Returns the list if the list is valid or returns an
+    invalid message if the list is not valid.
+    """
+
+
+def find_score(painted_board):
+    """
+    This function counts the total score for each player.
+    :param painted_board: Represents the board that only contains
+    the player's pieces
+    :return: The total scores of the two players as a list
+    """
+
+
+def print_boards(original_board, painted_board):
+    """
+    This function displays the original and the painted board as well as the
+    total scores for each player. This function will call other
+    functions in order to find these values.
+    :param original_board: The original imputed board
+    :param painted_board: The imputed board that has been colored with
+    the players that own that territory
+    :return: None
+    """
+
+
+def paint_board(input_board):
+    """
+    This function "colors" all of the empty spaces with the player
+    that owns that territory.
+    :param input_board: Represents the original board that
+    contains empty spaces
+    :return: The "painted" version of the board
+    """
+
+
+if __name__ == "__main__":
+   *Asks the user for a file they would like to access*
+
+   *Runs the make_two_d_list() and is_length_valid() functions
+   to see if the file has the same amount of characters per line.
+   If the statement is false, then it will continue to ask for a
+   file until it meets its criteria*
+
+   *Runs the paint_board() function to get the
+   "painted" version of the board*
+
+   *Runs the print_boards() function to output the data*
