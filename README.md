@@ -31,6 +31,6 @@ after it has been painted.<br>
  * We recommend that you use a 2d list to store the contents of the file
 
 ## 3. Objective
-Project 3 is designed to give you practice with two-dimensional lists, creating and calling functions, and recursion.
+This project is designed to give you practice with two-dimensional lists, creating and calling functions, and recursion.
 You’ll need to use practically everything you’ve learned so far, and will need to do some serious thinking about how all 
 of the pieces you need to create should fit together.  
